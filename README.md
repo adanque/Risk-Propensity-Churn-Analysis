@@ -113,9 +113,7 @@ Package               Version
 
 
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/tree/main/Results/Churned_BY_Area_Code.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/tree/main/Results/Churned_BY_Customer service calls.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/tree/main/Results/Churned_BY_Customer_service_calls.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/tree/main/Results/Churned_BY_International plan.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/tree/main/Results/Churned_BY_International_plan.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/tree/main/Results/Churned_BY_State.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/tree/main/Results/Churned_BY_Voice_mail_plan.png?raw=true)
@@ -148,7 +146,6 @@ Package               Version
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/tree/main/Results/Principal_Component_Scatter_Plot.png?raw=true)
 
 
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/tree/main/Results/Total eve minutes_and_Total eve charge_outlier_detection.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/tree/main/Results/Total_day_calls_and_charge_outlier_detection.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/tree/main/Results/Total_eve_minutes_and_Total_eve_charge_outlier_detection.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/tree/main/Results/Total_intl_minutes_and_Total_intl_charge_outlier_detection.png?raw=true)
