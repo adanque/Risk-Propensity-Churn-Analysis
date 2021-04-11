@@ -146,25 +146,22 @@ Package               Version
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Principal_Component_Scatter_Plot.png?raw=true)
 
 
+### Outlier Detection
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Total_day_calls_and_charge_outlier_detection.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Total_eve_minutes_and_Total_eve_charge_outlier_detection.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Total_intl_minutes_and_Total_intl_charge_outlier_detection.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Total_night_minutes_and_Total_night_charge_outlier_detection.png?raw=true)
 
+### Confusion Matrices
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Confusion_Matrix.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Final_XGBoost_Confusion_Matrix.png?raw=true)
 
 
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/SVC_Confusion_Matrix.png?raw=true)
-
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/XGBoost_Confusion_Matrix.png?raw=true)
-
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/LogisticRegression_Confusion_Matrix.png?raw=true)
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Final_XGBoost_Confusion_Matrix.png?raw=true)
 
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Models_Recall_Results.png?raw=true)
-
-
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/LogisticRegression_Confusion_Matrix.png?raw=true)
-
 
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/XG_Classification_Report_Results.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/LR_Classification_Report_Results.png?raw=true)
