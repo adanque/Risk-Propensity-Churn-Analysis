@@ -108,7 +108,6 @@ Package               Version
 ### Prediction
 
 
-
 ### Metrics Evaluation
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Churned_BY_Area_Code.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Churned_BY_Customer service calls.png?raw=true)
@@ -120,8 +119,9 @@ Package               Version
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Churned_Correlation_Matrix.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Churn_BY_State.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Churn_Distribution.png?raw=true)
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Churn_Matrix.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Confusion_Matrix.png?raw=true)
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Distribution_of_likelihood_Total_day_calls_Min_vs_Mean_vs_Max.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Distribution_of_likelihood_Total_day_charge_Min_vs_Mean_vs_Max.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Distribution_of_likelihood_Total_day_minutes_Min_vs_Mean_vs_Max.png?raw=true)
@@ -134,26 +134,41 @@ Package               Version
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Distribution_of_likelihood_Total_night_calls_Min_vs_Mean_vs_Max.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Distribution_of_likelihood_Total_night_charge_Min_vs_Mean_vs_Max.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Distribution_of_likelihood_Total_night_minutes_Min_vs_Mean_vs_Max.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Final_XGBoost_Confusion_Matrix.png?raw=true)
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Full_Churn_not_Churn_Matrix.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/LogisticRegression_Confusion_Matrix.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/LR_Classification_Report_Results.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Models_Recall_Results.png?raw=true)
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/No_Churn_Matrix.png?raw=true)
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/PCA_Cumulative_Explained_Variance.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/PCA_Heatmap.png?raw=true)
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Principal_Component_Scatter_Plot.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/SVC_Classification_Report_Results.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/SVC_Confusion_Matrix.png?raw=true)
+
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Total eve minutes_and_Total eve charge_outlier_detection.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Total_day_calls_and_charge_outlier_detection.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Total_eve_minutes_and_Total_eve_charge_outlier_detection.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Total_intl_minutes_and_Total_intl_charge_outlier_detection.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Total_night_minutes_and_Total_night_charge_outlier_detection.png?raw=true)
+
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Confusion_Matrix.png?raw=true)
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Final_XGBoost_Confusion_Matrix.png?raw=true)
+
+
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/SVC_Confusion_Matrix.png?raw=true)
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/XGBoost_Confusion_Matrix.png?raw=true)
+
+
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/Models_Recall_Results.png?raw=true)
+
+
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/LogisticRegression_Confusion_Matrix.png?raw=true)
+
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/XG_Classification_Report_Results.png?raw=true)
-
-
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/LR_Classification_Report_Results.png?raw=true)
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/SVC_Classification_Report_Results.png?raw=true)
 
 Model Accuracy and MAE results are looking pretty interesting!
 To measure the accuracy and loss of my model, I am using a set of my predicted values minus the actual target values between my train and test data. Then taking the mean of the absolute value of each in the set of values to divide this number by my target test values and then multiply by 100 to generate a mean absolute percentage error.  I then subtract 100 minus the mean absolute percentage error to produce accuracy metrics.
