@@ -109,17 +109,17 @@ Package               Version
 
 
 ### Metrics Evaluation
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churn_Distribution.png?raw=true)
 
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churned_BY_Area_Code.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churned_BY_Customer_service_calls.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churned_BY_International_plan.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churned_BY_State.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churned_BY_Voice_mail_plan.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churned_Correlation_Matrix.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churn_BY_State.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churn_Distribution.png?raw=true)
 
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churn_Matrix.png?raw=true)
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churn_BY_State.png?raw=true)
+
+
 
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_day_calls_Min_vs_Mean_vs_Max.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_day_charge_Min_vs_Mean_vs_Max.png?raw=true)
@@ -134,13 +134,16 @@ Package               Version
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_night_charge_Min_vs_Mean_vs_Max.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_night_minutes_Min_vs_Mean_vs_Max.png?raw=true)
 
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Full_Churn_not_Churn_Matrix.png?raw=true)
 
+
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churned_Correlation_Matrix.png?raw=true)
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churn_Matrix.png?raw=true)
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Full_Churn_not_Churn_Matrix.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/No_Churn_Matrix.png?raw=true)
+
 
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/PCA_Cumulative_Explained_Variance.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/PCA_Heatmap.png?raw=true)
-
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Principal_Component_Scatter_Plot.png?raw=true)
 
 
