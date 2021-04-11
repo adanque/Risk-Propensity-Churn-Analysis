@@ -109,6 +109,8 @@ Package               Version
 
 
 ### Metrics Evaluation
+![A remote image](https://github.com/adanque/RentalPricePrediction/blob/main/results/NYC_Top_Employers_Heatmap.png?raw=true)
+
 
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/tree/main/Results/Churned_BY_Area_Code.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/tree/main/Results/Churned_BY_Customer service calls.png?raw=true)
