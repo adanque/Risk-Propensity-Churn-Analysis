@@ -18,17 +18,35 @@ For most companies that provide a service or build and sell tangible products, i
 ### Project Specific Questions
 The goals of my project are to answer the following questions.
 
-•	Since subscriptions are normally monthly with metrics collected once a month, will it be possible to identify churn in as little as a couple months?
-•	What are the indicators that help identify dissatisfaction?
-•	What are these factors that lead to loyalty?
-•	Is there a way to identify dissatisfaction between monthly subscription payments?
-•	Where can this data be derived from?
-•	How can we identify how much churn affects the bottom line?
-•	Can churn be prevented?
-•	Are there indirect factors that lead to churn?
-•	Are there an early detection sign?
-•	Is there a way to show how much prevented churn has affected the bottom line of cash flow?
+- Since subscriptions are normally monthly with metrics collected once a month, will it be possible to identify churn in as little as a couple months?
+	- Answer: 
 
+- What are the indicators that help identify dissatisfaction?
+	- Answer: 
+
+- What are these factors that lead to loyalty?
+	- Answer: 
+
+- Is there a way to identify dissatisfaction between monthly subscription payments?
+	- Answer: 
+
+- Where can this data be derived from?
+	- Answer: 
+
+- How can we identify how much churn affects the bottom line?
+	- Answer: 
+
+- Can churn be prevented?
+	- Answer: 
+
+- Are there indirect factors that lead to churn?
+	- Answer: 
+
+- Are there an early detection sign?
+	- Answer: 
+
+- Is there a way to show how much prevented churn has affected the bottom line of cash flow?
+	- Answer: 
 
 
 
