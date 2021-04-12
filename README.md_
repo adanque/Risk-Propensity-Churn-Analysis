@@ -12,22 +12,8 @@ Abstract:
 
 Currently Under Construction - AD
 
-For most companies that provide a service or build and sell tangible products, it is the cash flow of their business that ensures their success, survival, or demise. For many of these companies being able to obtain new customers or clients can be very costly and timely. It is a challenge for many companies to continually identify or create new target markets or take customers from their competition. The costs are contributed to advertising, marketing campaigns, the human power to evangelize their products, marketing products to purchase to entice new customers and the worst which is opportunity costs of their service not being used or their product not being sold and sitting on a shelf. Thus, it is wise for companies to work toward keeping their customers for a long as they can. A happy and loyal customer will continue to buy, use, rate their products well, and recommend their favorite products creating a winning passive revenue situation that invites new customers through a network of their own customers. However, when a customer leaves it not only loses out on the continual revenue from that customer - it also reduces that opportunity of passive recommendation marketing. This creates a problem or opportunity for businesses as it is better for them to identify customers who may leave. So that they could take vital and timely steps toward preventing customers from leaving to become a customer of the competition. This is the process of identifying churn or the process of identifying factors that lead customers that may leave. 
-
 
 ### Project Specific Questions
-The goals of my project are to answer the following questions.
-
-•	Since subscriptions are normally monthly with metrics collected once a month, will it be possible to identify churn in as little as a couple months?
-•	What are the indicators that help identify dissatisfaction?
-•	What are these factors that lead to loyalty?
-•	Is there a way to identify dissatisfaction between monthly subscription payments?
-•	Where can this data be derived from?
-•	How can we identify how much churn affects the bottom line?
-•	Can churn be prevented?
-•	Are there indirect factors that lead to churn?
-•	Are there an early detection sign?
-•	Is there a way to show how much prevented churn has affected the bottom line of cash flow?
 
 
 
@@ -35,34 +21,13 @@ The goals of my project are to answer the following questions.
 ## Included Project Variables / Factors 
 ### Project Dataset:
 - Type:		CSV
-- Columns: 	20
-- Rows:		2,667
+- Columns: 	
+- Rows:		
 
 
- | Feature / Factors | Data Type | Definition | 
- | --------- | --------- | --------- | 
- | State | string | State Abbreviation | 
- | Account length | integer | Length of Account number | 
- | Area code | integer | Phone Area Code | 
- | International plan | string | Does the customer have an international calling plan? | 
- | Voice mail plan | string | Does the customer have a voice mail plan | 
- | Number vmail messages | integer | Number of voicemails | 
- | Total day minutes | double | Total call minutes during the day | 
- | Total day calls | integer | Total calls during the day | 
- | Total day charge | double | Total day usage charges | 
- | Total eve minutes | double | Total call minutes during the evening | 
- | Total eve calls | integer | Total calls during the evening | 
- | Total eve charge | double | Total evening usage charges | 
- | Total night minutes | double | Total call minutes during the night | 
- | Total night calls | integer | Total calls during the night | 
- | Total night charge | double | Total night usage charges | 
- | Total intl minutes | double | Total call minutes international | 
- | Total intl calls | integer | Total calls internationally | 
- | Total intl charge | double | Total international usage charges | 
- | Customer service calls | integer | Customer Service call counts for the period | 
- | Churn | string | Has the customer closed their account? | 
-
-
+ | Feature / Factors | Definition | 
+ | --------- | --------- | 
+ | bathrooms | RentHop - Number of bathrooms | 
 
 
 
@@ -217,44 +182,12 @@ To measure the accuracy and loss of my model, I am using a set of my predicted v
 ### Variable Correlation Reviews
 
 
-
-## Appendices
-
-
-
-
-
-
-
 ## Data Sources
 | Source  | Description | URL |
 | ------ | ------ | ------ |
 | Kaggle | Orange Telecom Dataset | https://www.kaggle.com/mnassrib/telecom-churn-datasets | 
 
 ## References: 
-
-Kundu, A. (October 2018). Machine Learning Powered Churn Analysis for Modern Day Business Leaders. Retrieved from: https://towardsdatascience.com/machine-learning-powered-churn-analysis-for-modern-day-business-leaders-ad2177e1cb0d
-
-flo.tausend. (January 2019). Hands-on: Predict Customer Churn. Retrieved from: https://towardsdatascience.com/hands-on-predict-customer-churn-5c2a42806266
-
-DataScience.com. (March 2017).The Challenges of Building a Predictive Churn Model. Retrieved from https://www.kdnuggets.com/2017/03/datascience-building-predictive-churn-model.html
-
-Mahtab,M. Verma,S. Paton, D. (July 2020).Gaining a Deeper Understanding of Churn Using Data Science Workspace. Retrieved from https://medium.com/adobetech/gaining-a-deeper-understanding-of-churn-using-data-science-workspace-18a2190e0cf3
-
-Samineni, P. (August 2020). Telecom Churn Prediction. Retrieved from https://medium.com/analytics-vidhya/telecom-churn-prediction-9ce72c24e961
-
-Ahmad, A.K., Jafar, A. & Aljoumaa, K. Customer churn prediction in telecom using machine learning in big data platform. J Big Data 6, 28 (2019). https://doi.org/10.1186/s40537-019-0191-6
-
-Lin, S. (July 2018). 5 data science models for predicting enterprise churn. Retrieved from https://www.reforge.com/brief/5-data-science-models-for-predicting-enterprise-churn#6Gd9Hstees3kSLTvzl_JsQ?utm_medium=social&utm_source=facebook&utm_content=brief
-
-Athar, S. (September 2020). Customer Churn Prediction : End to End Machine Learning Case Study. Retrieved from https://medium.com/@sayedathar11/customer-churn-prediction-end-to-end-machine-learning-case-study-c14cdc4d2c92
-
-Choudhary, B. (October 2020). Churn Prediction Using Machine Learning. Retrieved from https://medium.com/swlh/churn-prediction-using-machine-learning-25c856201884
-
-Sree, (October 2020). A step-by-step approach to predict customer attrition using supervised machine learning algorithms in Python. Retrieved from https://towardsdatascience.com/predict-customer-churn-in-python-e8cd6d3aaa7
-
-Zyabkina, T. (n.d.). Propensity to Churn Modeling and Its Use for Churn Reduction. Retrieved from https://zyabkina.com/propensity-to-churn-modeling-does-not-help-reduce-churn/
-
 
 
 
