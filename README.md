@@ -176,21 +176,13 @@ Here we found that 10 components explains 90% of our variance of 17 components.
 We can see above there is no correlation between our components.
 
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Principal_Component_Scatter_Plot.png?raw=true)
+
 Here we can see tight angles between PCs from coordinates 0,0 indicating close positive correlations. 
 These include:
 - Total intl call plans and charges. 
 - Total day minutes and day charges.
 - Total eve minutes and eve charges.
 - Total night minutes and night charges.
-
-
-
-
-
-### Confusion Matrices
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/SVC_Confusion_Matrix.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/LogisticRegression_Confusion_Matrix.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Final_XGBoost_Confusion_Matrix.png?raw=true)
 
 
 ### Prediction
@@ -201,6 +193,11 @@ These include:
 
 Model Accuracy and MAE results are looking pretty interesting!
 To measure the accuracy and loss of my model, I am using a set of my predicted values minus the actual target values between my train and test data. Then taking the mean of the absolute value of each in the set of values to divide this number by my target test values and then multiply by 100 to generate a mean absolute percentage error.  I then subtract 100 minus the mean absolute percentage error to produce accuracy metrics.
+
+### Confusion Matrices
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/SVC_Confusion_Matrix.png?raw=true)
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/LogisticRegression_Confusion_Matrix.png?raw=true)
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Final_XGBoost_Confusion_Matrix.png?raw=true)
 
 
 ## Appendices
