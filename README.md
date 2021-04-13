@@ -118,7 +118,7 @@ Package               Version
 | ------ | ------ |
 | churn-bigml-80.csv | Orange Telecom Dataset | 
 
-## Results
+## Analyses
 
 ### Metrics Evaluation and Observations
 
@@ -162,7 +162,7 @@ This visualization displays a low amount of churn based on voicemail. Indicating
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_night_minutes_Min_vs_Mean_vs_Max.png?raw=true)
 
 
-
+### Variable Correlation Reviews
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churned_Correlation_Matrix.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churn_Matrix.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/No_Churn_Matrix.png?raw=true)
@@ -185,21 +185,16 @@ These include:
 
 
 
-### Prediction
-
 
 
 ### Confusion Matrices
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Confusion_Matrix.png?raw=true)
-
-
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/SVC_Confusion_Matrix.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/XGBoost_Confusion_Matrix.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/LogisticRegression_Confusion_Matrix.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Final_XGBoost_Confusion_Matrix.png?raw=true)
 
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Models_Recall_Results.png?raw=true)
 
+### Prediction
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Models_Recall_Results.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/XG_Classification_Report_Results.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/LR_Classification_Report_Results.png?raw=true)
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/SVC_Classification_Report_Results.png?raw=true)
@@ -208,19 +203,7 @@ Model Accuracy and MAE results are looking pretty interesting!
 To measure the accuracy and loss of my model, I am using a set of my predicted values minus the actual target values between my train and test data. Then taking the mean of the absolute value of each in the set of values to divide this number by my target test values and then multiply by 100 to generate a mean absolute percentage error.  I then subtract 100 minus the mean absolute percentage error to produce accuracy metrics.
 
 
-### Visual Analyses 
-
-
-
-### Variable Correlation Reviews
-
-
-
 ## Appendices
-
-
-
-
 
 
 
@@ -228,6 +211,7 @@ To measure the accuracy and loss of my model, I am using a set of my predicted v
 | Source  | Description | URL |
 | ------ | ------ | ------ |
 | Kaggle | Orange Telecom Dataset | https://www.kaggle.com/mnassrib/telecom-churn-datasets | 
+
 
 ## References: 
 
