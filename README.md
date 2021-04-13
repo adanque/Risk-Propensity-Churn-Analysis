@@ -10,6 +10,8 @@
 
 Abstract: 
 
+Note: This project is currently in progress.
+
 For most companies that provide a service or build and sell tangible products, it is the cash flow of their business that ensures their success, survival, or demise. For many of these companies being able to obtain new customers or clients can be very costly and timely. It is a challenge for many companies to continually identify or create new target markets or take customers from their competition. The costs are contributed to advertising, marketing campaigns, the human power to evangelize their products, marketing products to purchase to entice new customers and the worst which is opportunity costs of their service not being used or their product not being sold and sitting on a shelf. Thus, it is wise for companies to work toward keeping their customers for a long as they can. A happy and loyal customer will continue to buy, use, rate their products well, and recommend their favorite products creating a winning passive revenue situation that invites new customers through a network of their own customers. However, when a customer leaves it not only loses out on the continual revenue from that customer - it also reduces that opportunity of passive recommendation marketing. This creates a problem or opportunity for businesses as it is better for them to identify customers who may leave. So that they could take vital and timely steps toward preventing customers from leaving to become a customer of the competition. This is the process of identifying churn or the process of identifying factors that lead customers that may leave. 
 
 ### Project Specific Questions
@@ -164,9 +166,13 @@ This visualization displays a low amount of churn based on voicemail. Indicating
 
 ### Variable Correlation Reviews
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churned_Correlation_Matrix.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churn_Matrix.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/No_Churn_Matrix.png?raw=true)
 
+## Filtered Correlation Reviews
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churn_Matrix.png?raw=true)
+The above correlation matrics shows an interesting set of correlations between variables that may help with identifying trends for customers before they churn.
+
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/No_Churn_Matrix.png?raw=true)
+The above correlation matrix shows +
 
 ### Principal Component Analysis
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/PCA_Cumulative_Explained_Variance.png?raw=true)
