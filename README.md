@@ -164,31 +164,6 @@ The above graph supports the day charges as relates to the number of minutes con
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_eve_calls_Min_vs_Mean_vs_Max.png?raw=true)
 The above is an interesting propensity graph as it appears those who churn may have incurred excessive charges earlier in the period and therefore churned as a cause of it.
 
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_eve_charge_Min_vs_Mean_vs_Max.png?raw=true)
-The above chart is similiar to the one above it and will be removed.
-
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_eve_minutes_Min_vs_Mean_vs_Max.png?raw=true)
-The above chart is similiar to the one above it and will be removed.
-
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_intl_calls_Min_vs_Mean_vs_Max.png?raw=true)
-The above chart is similiar to the one above it and will be removed.
-
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_intl_charge_Min_vs_Mean_vs_Max.png?raw=true)
-The above chart is similiar to the one above it and will be removed.
-
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_intl_minutes_Min_vs_Mean_vs_Max.png?raw=true)
-The above chart is similiar to the one above it and will be removed.
-
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_night_calls_Min_vs_Mean_vs_Max.png?raw=true)
-The above chart is similiar to the one above it and will be removed.
-
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_night_charge_Min_vs_Mean_vs_Max.png?raw=true)
-The above chart is similiar to the one above it and will be removed.
-
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_night_minutes_Min_vs_Mean_vs_Max.png?raw=true)
-The above chart is similiar to the one above it and will be removed.
-
-
 ### Variable Correlation Reviews
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Churned_Correlation_Matrix.png?raw=true)
 
@@ -236,14 +211,12 @@ Using Support Vector Classification, we received high precision, ok recall and a
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/SVC_Confusion_Matrix.png?raw=true)
 the above confusion matrix supports the estimates displayed earlier on its ability to predict those who do not churn. 
 
-### Conclusion: XGBoost in my case is the best algorithm to base my model to predict churn.
-
-
-
-
+### Conclusion: 
+- XGBoost in my case is the best algorithm to base my model to predict churn.
+- The predictive variables to watch: If the customer has an international plan, high costs per Total Day Charge, Total Eve Charge and Total Night Charge.
+- These factors appear to indicate that when charges are excessively high for their usage, the customer may churn to seek lower rates with another provider.
 
 ## Appendices
-
 ### Data Sources
 | Source  | Description | URL |
 | ------ | ------ | ------ |
