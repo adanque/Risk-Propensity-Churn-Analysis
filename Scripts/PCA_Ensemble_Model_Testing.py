@@ -1,13 +1,8 @@
 
 """
 Author: Alan Danque
-Date:   20210323
-Purpose:Preliminary Pandas Profiling for Telecom Churn Data
-
-rows attributes
-( , )
-Rows:
-Fields:
+Date:   20210415
+Purpose:Principal Component Analysis and Predictions
 """
 import imblearn
 import seaborn as sns

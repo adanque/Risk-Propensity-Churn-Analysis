@@ -78,9 +78,6 @@ The goals of my project are to answer the following questions.
  | Churn | string | Has the customer closed their account? | 
 
 
-
-
-
 ## Pythonic Libraries Used in this project
 Package               Version
 --------------------- ---------
@@ -210,7 +207,6 @@ Here we found that 10 components explains 90% of our variance of 17 components.
 We can see above there is no correlation between our components.
 
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Principal_Component_Scatter_Plot.png?raw=true)
-
 Here we can see tight angles between PCs from coordinates 0,0 indicating close positive correlations. 
 These include:
 - Total intl call plans and charges. 
@@ -221,30 +217,40 @@ These include:
 
 ### Prediction
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Models_Recall_Results.png?raw=true)
+Recall testing to estimate positive predictions using Cross validation. 
+
+### Note: The following uses GridSearchCV to itereate through a list of parameter options for each of the three algorithms to optimize the prediction results.
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/XG_Classification_Report_Results.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/LR_Classification_Report_Results.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/SVC_Classification_Report_Results.png?raw=true)
-
-Model Accuracy and MAE results are looking pretty interesting!
-To measure the accuracy and loss of my model, I am using a set of my predicted values minus the actual target values between my train and test data. Then taking the mean of the absolute value of each in the set of values to divide this number by my target test values and then multiply by 100 to generate a mean absolute percentage error.  I then subtract 100 minus the mean absolute percentage error to produce accuracy metrics.
-
-### Confusion Matrices
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/SVC_Confusion_Matrix.png?raw=true)
-![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/LogisticRegression_Confusion_Matrix.png?raw=true)
+Using XGBoost, we received high precision, recall and F1 Score. And an accuracy of 84%
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Final_XGBoost_Confusion_Matrix.png?raw=true)
+The above confusion matrix supports our findings on it's ability to predict non churn. However I believe since this is a classification between two classes ie Churn not Churn we can deduce from those who are predicted to not churn to identify possible churn.
+
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/LR_Classification_Report_Results.png?raw=true)
+Using Logistic Regression, we received high precision, ok recall and an ok F1 Score. However the accuracy is at 61%
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/LogisticRegression_Confusion_Matrix.png?raw=true)
+The above confusion matrix supports the finding for Logistic Regression. However I did find that the score does appear to improve when I increase the max iterations to the model.
+
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/SVC_Classification_Report_Results.png?raw=true)
+Using Support Vector Classification, we received high precision, ok recall and an ok F1 Score. However the accuracy was also at 61%
+![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/SVC_Confusion_Matrix.png?raw=true)
+the above confusion matrix supports the estimates displayed earlier on its ability to predict those who do not churn. 
+
+### Conclusion: XGBoost in my case is the best algorithm to base my model to predict churn.
+
+
+
 
 
 ## Appendices
 
-
-
-## Data Sources
+### Data Sources
 | Source  | Description | URL |
 | ------ | ------ | ------ |
 | Kaggle | Orange Telecom Dataset | https://www.kaggle.com/mnassrib/telecom-churn-datasets | 
 
 
-## References: 
+### References: 
 
 Kundu, A. (October 2018). Machine Learning Powered Churn Analysis for Modern Day Business Leaders. Retrieved from: https://towardsdatascience.com/machine-learning-powered-churn-analysis-for-modern-day-business-leaders-ad2177e1cb0d
 
