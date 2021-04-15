@@ -48,7 +48,6 @@ The goals of my project are to answer the following questions.
 	- Answer: 
 
 
-
 ##  Project Variables / Factors 
 ### Project Dataset:
 - Type:		CSV
@@ -144,24 +143,53 @@ This visualization displays a low amount of churn based on voicemail. Indicating
 
 ### Outlier Detection
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Total_day_calls_and_charge_outlier_detection.png?raw=true)
+The above box plot displays outliers for those who have not churned. However, does not have any outliers for those who do churn. Possibly indicating that usage is normal before they churn.
 
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Total_eve_minutes_and_Total_eve_charge_outlier_detection.png?raw=true)
+The above box plot is interesting as those who do churn display as outliers outside the max areas. Indicating that evening rates and excessive usage may be a factor of churn.
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Total_intl_minutes_and_Total_intl_charge_outlier_detection.png?raw=true)
+The above box plot appears to be much like the evening box plot as the outliers above the max mark for those who churn indicate it may be contributing factor to churn. 
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Total_night_minutes_and_Total_night_charge_outlier_detection.png?raw=true)
+The above appears to be again similiar to the evening and international max value churn outliers. Indicating that these customers may have been unhappy by the related rates for usage for nightly rates.
 
 # Propensity Distribution of Likeliness
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_day_calls_Min_vs_Mean_vs_Max.png?raw=true)
+The above graph shows that day calls are not likely a factor to those who churned.
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_day_charge_Min_vs_Mean_vs_Max.png?raw=true)
+The above graph does display that the charges for calls may be likely a contributing factor to churn.
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_day_minutes_Min_vs_Mean_vs_Max.png?raw=true)
+The above graph supports the day charges as relates to the number of minutes contributing to the charges. Therefore a likely factor to churn.
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_eve_calls_Min_vs_Mean_vs_Max.png?raw=true)
+The above is an interesting propensity graph as it appears those who churn may have incurred excessive charges earlier in the period and therefore churned as a cause of it.
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_eve_charge_Min_vs_Mean_vs_Max.png?raw=true)
+The above chart is similiar to the one above it and will be removed.
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_eve_minutes_Min_vs_Mean_vs_Max.png?raw=true)
+The above chart is similiar to the one above it and will be removed.
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_intl_calls_Min_vs_Mean_vs_Max.png?raw=true)
+The above chart is similiar to the one above it and will be removed.
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_intl_charge_Min_vs_Mean_vs_Max.png?raw=true)
+The above chart is similiar to the one above it and will be removed.
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_intl_minutes_Min_vs_Mean_vs_Max.png?raw=true)
+The above chart is similiar to the one above it and will be removed.
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_night_calls_Min_vs_Mean_vs_Max.png?raw=true)
+The above chart is similiar to the one above it and will be removed.
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_night_charge_Min_vs_Mean_vs_Max.png?raw=true)
+The above chart is similiar to the one above it and will be removed.
+
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Distribution_of_likelihood_Total_night_minutes_Min_vs_Mean_vs_Max.png?raw=true)
+The above chart is similiar to the one above it and will be removed.
 
 
 ### Variable Correlation Reviews
