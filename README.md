@@ -18,34 +18,34 @@ For most companies that provide a service or build and sell tangible products, i
 The goals of my project are to answer the following questions.
 
 - Since subscriptions are normally monthly with metrics collected once a month, will it be possible to identify churn in as little as a couple months?
-	- Answer: 
+	- Answer: Yes, I found that it is still possible to build a prediction model using a snapshot of data.
 
 - What are the indicators that help identify dissatisfaction?
-	- Answer: 
+	- Answer: Excessive Day, Eve and Night Usage Charge amounts and if the customer has an international plan.
 
 - What are these factors that lead to loyalty?
-	- Answer: 
+	- Answer: Lower charges relating to usage.
 
 - Is there a way to identify dissatisfaction between monthly subscription payments?
-	- Answer: 
+	- Answer: The relation of charges to usage.
 
 - Where can this data be derived from?
-	- Answer: 
+	- Answer: From the customer usage minutes and the related charges. In conjunction with their plan options.
 
 - How can we identify how much churn affects the bottom line?
-	- Answer: 
+	- Answer: Would need financials data describing revenue and costs to answer this question.
 
 - Can churn be prevented?
-	- Answer: 
+	- Answer: Yes, by possibly allowing a rate discount program using a loyalty-based system.
 
 - Are there indirect factors that lead to churn?
-	- Answer: 
+	- Answer: When the phone usage occurs.  
 
 - Are there an early detection sign?
-	- Answer: 
+	- Answer: Yes, if usage monitoring and alerting were available – then it may be the customer alert function that would help prevent the customer from churning.
 
 - Is there a way to show how much prevented churn has affected the bottom line of cash flow?
-	- Answer: 
+	- Answer: : I believe it is possible. However, this dataset does not include the information needed to answer this question.
 
 
 ##  Project Variables / Factors 
@@ -215,6 +215,11 @@ the above confusion matrix supports the estimates displayed earlier on its abili
 - XGBoost in my case is the best algorithm to base my model to predict churn.
 - The predictive variables to watch: If the customer has an international plan, high costs per Total Day Charge, Total Eve Charge and Total Night Charge.
 - These factors appear to indicate that when charges are excessively high for their usage, the customer may churn to seek lower rates with another provider.
+
+### Recommendation: 
+- To reduce and prevent customer churn, I would recommend that the telecom vendor institutes a loyalty system that discounts high amounts of charges when the charges suddenly occur either on first instance or for several instances per month. 
+
+
 
 ## Appendices
 ### Data Sources
