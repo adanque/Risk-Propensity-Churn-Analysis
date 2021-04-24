@@ -76,6 +76,15 @@ The goals of my project are to answer the following questions.
  | Churn | string | Has the customer closed their account? | 
 
 
+##  Methods used
+1.	Generate Pandas Profiling report for all rows in dataset.
+2.	Filter dataset on churn label for Churn = True and rerun pandas profiling report.
+3.	Filter dataset on churn label for Churn = False and rerun pandas profiling report.
+4.	Create visualizations of interactions between variables ie boxplots, bar graphs, line graphs, correlation matrices, scatter plots. 
+5.	Document observations between variable correlations between the churn and not churn.
+6.	Evaluate algorithms and predictive models using F1 score, accuracy, and confusion matrices.
+
+
 ## Pythonic Libraries Used in this project
 Package               Version
 --------------------- ---------
