@@ -221,7 +221,7 @@ the above confusion matrix supports the estimates displayed earlier on its abili
 ### Conclusion: 
 - XGBoost in my case is the best algorithm to base my model to predict churn.
 - The predictive variables to watch: If the customer has an international plan, high costs per Total Day Charge, Total Eve Charge and Total Night Charge.
-- These factors appear to indicate that when charges are excessively high for their usage, the customer may churn to seek lower rates with another provider.
+- These factors appear to indicate that when charges are excessively high for their usage, the customer may likely churn to seek lower rates with another provider.
 
 ### Recommendation: 
 - To reduce and prevent customer churn, I would recommend that the telecom vendor institutes a loyalty system that discounts high amounts of charges when the charges suddenly occur either on first instance or for several instances per month. 
