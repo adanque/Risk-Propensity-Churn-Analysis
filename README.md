@@ -7,7 +7,7 @@
 <a href="https://adanque.github.io/">Click here to go back to Portfolio Website </a>
 
 <p align="center">
-  <img width="460" height="460" src="https://adanque.github.io/assets/img/ChurnRisk.jpg">
+  <img width="460" height="400" src="https://adanque.github.io/assets/img/ChurnRisk.jpg">
 </p>
 
 ## Abstract: 
