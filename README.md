@@ -195,6 +195,7 @@ Here we found that 10 components explains 90% of our variance of 17 components.
 We can see above there is no correlation between our components.
 
 ![A remote image](https://github.com/adanque/Risk-Propensity-Churn-Analysis/blob/main/Results/Principal_Component_Scatter_Plot.png?raw=true)
+
 Here we can see tight angles between PCs from coordinates 0,0 indicating close positive correlations. 
 These include:
 - Total intl call plans and charges. 
